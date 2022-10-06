@@ -1,0 +1,33 @@
+1. Create a new project in unity and select 3d and name it AR using vuforia
+2. Go to link "developer.vuforia.com"& Register. Enter the details asked & click on create a account
+	Verify your details by going to the link on email 
+	Login to vuforia account
+3. Go to downloads->Sample
+	Click on open from unity store
+	a new tab opens of unity asset store
+4. Go to vuforia engine - sdk - add to my assets - open in unity
+5. A packet manager appears. Click on import
+6. Now go to assets store and select vuforia core sample - Add to my assets - Open in unity - import
+7. to verify whether vuforia is imported successfully, right clik on hierarchy window pannel, if you see 
+	Vuforia engine in the dropdown list, it means that vuforia is imported succsessfully
+8. Delete "Main camera" from the scene right clik on hierarchy panel - Vuforia engine - AR camera
+9. In the project window go to asset/Resources and double click on "VuforiaConfig.asset",to view its property
+	in the inspector panel
+10. Click on add license on inspector pannel. Vuforia opens 
+11. Click on license manager - get basics
+12. Keep the license name same as the project name. i.e.AR using vuforia. Check the terms & conditons &
+	click on confirm.
+13. Click on license & copy the license key and paste it in the app license key
+14. Go to vuforia - Target manager - add db & write write ur db name & select device - create
+15. AFter creating db, open db & click on add target
+16. Click on image - browse and select image - width=0.5 - name it & add
+17. Repeat the steps 15,16 until you get 4/5 star ratings
+18. click on download db - unity editor - download . ONce it downloads you can get the file called 
+	hellovuforia.unity package. Double click on this file to open in unity., Now you'll get a prompt, 
+	click on import
+19. go to asset/resources & double clik on vuforiaconfig.asset - Inspector panel - db
+20. Right click on hierarchy panel - vuforia engine - Image Target.
+	select img target to view  this property in the inspector pannel
+21. Go to img target behaviour script. Right click on img Target - scale - x,y,z =0.2
+22. Move your box slightly up to your surface to make it appear levitating
+23. Click on play button to run the scene on the top center using your web cam
